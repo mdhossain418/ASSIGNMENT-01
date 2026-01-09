@@ -280,8 +280,39 @@ nav .menu a{
     line-height: 20px;
     color: #627382;
 }
-
-
+.brain-container {
+    display: flex;
+    width: 100%;
+    max-width: 1360px;
+    align-items: center;
+    gap: 60px;
+}
+.brain-container .brain-image{
+    width: 100%;
+    max-width: 600px;
+   margin: 120px 60px 120px 120px;
+   border-radius:12px ;
+}
+.brain-text{
+    width: 100%;
+    max-width: 700px;
+    gap: 16px;
+    margin-top: 102px;
+    margin-bottom: 270px;
+}
+.brain-text .p{
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
 
     
 
